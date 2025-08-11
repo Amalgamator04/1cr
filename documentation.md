@@ -120,86 +120,61 @@ These datasets are **synthetic** and generated using Python's `faker` library to
 
 #--------------------------------------------------------------------------------#
 
+# 📊 Sales Analytics & Visualization Project
 
-Got it — you want **creative** Power BI page ideas based on your datasets, not just generic dashboards.
-Here’s a **set of 6+ unique, story-driven Power BI pages** that will make your report look like a professional, interactive data story.
-
----
-
-## **1️⃣ Overview & KPI Pulse Board**
-
-**Goal:** Give executives a *one-glance* health check.
-**Features:**
-
-* Dynamic KPI cards (Total Revenue, Total Orders, Total Customers, Avg. Order Value, YOY Growth %)
-* A *trend ribbon* at the top (last 12 months performance sparkline for each KPI)
-* Map showing top-performing regions with tooltips
-* Clickable slicers (Date Range, Category, Region)
-* **Extra flair:** KPI *pulse animation* that blinks if target not met.
+## 🏆 Main Goal
+The **primary goal** of this project is to:
+1. **Design** dashboards and layouts in **Figma** 🎨.
+2. **Clean & analyze** raw sales data using analytics techniques 🧹📈.
+3. **Visualize** insights using **Power BI** for interactive decision-making 📊.
 
 ---
 
-## **2️⃣ Sales Deep Dive Explorer**
+## 📂 Project Workflow
 
-**Goal:** Help sales managers drill down into performance.
-**Features:**
+### 1️⃣ **Figma UI Design**
+- Create **dashboard wireframes** and layouts for the Sales Analytics System.
+- Focus on **user-friendly design** and clean data presentation.
+- **Tools Used**: [Figma](https://www.figma.com)
 
-* Waterfall chart showing revenue changes by product category
-* TreeMap showing top 10 products contribution
-* Decomposition Tree (Break sales → Region → Product → Sales Rep)
-* Drillthrough to product-level profit margins
-* **Extra flair:** Dynamic commentary box generated using DAX (e.g., *"Electronics sales dropped 5% in Q2 due to North region slowdown"*).
-
----
-
-## **3️⃣ Customer Segmentation & Behavior**
-
-**Goal:** Understand who your customers are & what they buy.
-**Features:**
-
-* Age & gender distribution donut charts
-* Customer loyalty tier breakdown
-* RFM Analysis (Recency, Frequency, Monetary Value) heatmap
-* Average order size by customer type
-* **Extra flair:** Scatter plot of “Customer Lifetime Value vs Frequency” with clickable customer profiles.
+🖼 **Sample Figma Design Placeholder**  
+![Figma Design](path/to/figma_image.png)
 
 ---
 
-## **4️⃣ Supply Chain & Inventory Watchtower**
+### 2️⃣ **Data Cleaning & Analytics**
+- Use Python (Pandas, NumPy) to clean and preprocess raw sales data.
+- Handle:
+  - Missing values
+  - Outliers
+  - Incorrect formats
+- Generate summary statistics for better understanding of trends.
 
-**Goal:** Keep inventory & supply chain efficient.
-**Features:**
-
-* Stock level heatmap by warehouse & product category
-* Inventory aging chart (how long products sit before selling)
-* Stock-out alerts table (highlighted red)
-* Lead time trend chart for suppliers
-* **Extra flair:** Gauge visual for “Days of Stock Remaining” with green/yellow/red thresholds.
-
----
-
-## **5️⃣ Profitability & Cost Breakdown**
-
-**Goal:** See where money is made or lost.
-**Features:**
-
-* Profit margin waterfall chart (Revenue → Discounts → COGS → Net Profit)
-* Category-wise gross margin % comparison
-* Fixed vs Variable costs donut
-* ROI analysis for campaigns or products
-* **Extra flair:** Small multiples showing “Profit trend” for each product category.
+🖼 **Data Cleaning Screenshot Placeholder**  
+![Data Cleaning](path/to/data_cleaning_image.png)
 
 ---
 
-## **6️⃣ Forecast & What-If Analysis**
+### 3️⃣ **Power BI Dashboard**
+- Import cleaned data into Power BI.
+- Create **dynamic dashboards** with:
+  - KPIs
+  - Sales trends
+  - Product-wise performance
+  - Regional analysis
+- Enable interactive filtering for deep-dive analysis.
 
-**Goal:** Plan for the future.
-**Features:**
+🖼 **Power BI Dashboard Placeholder**  
+![Power BI Dashboard](path/to/powerbi_image.png)
 
-* AI/ML forecast visual for next 6–12 months sales
-* What-If parameter slider for price change impact
-* Seasonal pattern breakdown (sales by month/year)
-* **Extra flair:** Scenario selection (Optimistic, Realistic, Pessimistic) with instant KPI recalculation.
+---
+
+## 📊 Features
+- **Interactive Sales Trends**
+- **Region & Product Category Insights**
+- **Profit Margin & KPI Tracking**
+- **User-Centric Dashboard Design**
+
 
 ---
 
