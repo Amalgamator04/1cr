@@ -55,7 +55,7 @@ import requests
 import pandas as pd
 import time
 
-API_KEY = 'AIzaSyAHyusPnVOJ16wDVeniJv0cVQ1k35UYejw'
+API_KEY = '8888'
 
 def fetch_all_comments(video_id, api_key):
     comments = []
